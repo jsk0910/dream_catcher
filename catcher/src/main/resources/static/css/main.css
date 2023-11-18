@@ -1,4 +1,4 @@
-body
+	body
 	{
 		margin: 0px;
 		padding: 0px;
@@ -48,3 +48,619 @@ body
 		margin: 0em auto;
 		width: 1200px;
 	}
+/*********************************************************************************/
+/* Image Style                                                                   */
+/*********************************************************************************/
+	.image
+	{
+		display: inline-block;
+	}
+	
+	.image img
+	{
+		display: block;
+		width: 100%;
+	}
+	
+	.image-full
+	{
+		display: block;
+		width: 100%;
+		margin: 0 0 2em 0;
+	}
+	
+	.image-left
+	{
+		float: left;
+		margin: 0 2em 2em 0;
+	}
+	
+	.image-centered
+	{
+		display: block;
+		margin: 0 0 2em 0;
+	}
+	
+	.image-centered img
+	{
+		margin: 0 auto;
+		width: auto;
+	}
+
+/*********************************************************************************/
+/* List Styles                                                                   */
+/*********************************************************************************/
+
+ul.style1
+{
+}
+
+ul.actions
+{
+}
+
+ul.actions li
+{
+	display: inline-block;
+	padding: 0em 0.50em;
+}
+
+
+/*********************************************************************************/
+/* Social Icon Styles                                                            */
+/*********************************************************************************/
+
+ul.contact
+{
+	margin: 0;
+	padding: 2em 0em 0em 0em;
+	list-style: none;
+}
+
+ul.contact li
+{
+	display: inline-block;
+	padding: 0em 0.30em;
+	font-size: 1em;
+}
+
+ul.contact li span
+{
+	display: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.contact li a
+{
+	color: #FFF;
+}
+
+ul.contact li a:before
+{
+	display: inline-block;
+	background: #3f3f3f;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 20px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+ul.contact li a.icon-twitter:before { background: #2DAAE4; }
+ul.contact li a.icon-facebook:before { background: #39599F; }
+ul.contact li a.icon-dribbble:before { background: #C4376B;	}
+ul.contact li a.icon-tumblr:before { background: #31516A; }
+ul.contact li a.icon-rss:before { background: #F2600B; }
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+.button
+{
+	display: inline-block;
+	padding: 1em 2em 1em 2em;
+	letter-spacing: 0.10em;
+	margin-top: 2em;
+	padding: 1.40em 3em;
+	background: #2651a8;
+	border-radius: 6px;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 1em;
+	color: #FFF;
+}
+
+/*********************************************************************************/
+/* 4-column                                                                      */
+/*********************************************************************************/
+
+.box1,
+.box2,
+.box3,
+.box4
+{
+	width: 235px;
+}
+
+.box1,
+.box2,
+.box3
+{
+	float: left;
+	margin-right: 20px;
+}
+
+.box4
+{
+	float: right;
+}
+
+/*********************************************************************************/
+/* 3-column                                                                      */
+/*********************************************************************************/
+
+.boxA,
+.boxB,
+.boxC
+{
+	width: 300px;
+	height: 300px;
+}
+
+.boxA
+{
+	float: left;
+	margin-right: 115px;
+	margin-left: 65px;
+}
+.boxB
+{
+	float: left;
+}
+
+ .boxC
+{
+	float: right;
+}
+
+/*********************************************************************************/
+/* 2-column                                                                      */
+/*********************************************************************************/
+.tbox1,
+	.tbox2
+	{
+		width: 575px;
+	}
+	
+	.tbox1
+	{
+		float: left;
+	}
+
+	.tbox2
+	{
+		float: right;
+	}
+
+	
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+	.title
+	{
+		margin-bottom: 3em;
+	}
+	
+	.title h2
+	{
+		font-size: 2.7em;
+	}
+	
+	.title .byline
+	{
+		font-size: 1.3em;
+		color: black;
+	}
+	.title .byline2
+	{
+		font-size: 1.3em;
+		color: white;
+	}
+	.title .byline3{
+		color:white;
+	}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#wrapper
+	{
+		position: relative;
+		padding: 5em 0em 7em 0em;
+		background: #FFF;
+	}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header-wrapper
+	{
+		position: relative;
+		padding: 5em 0em 7em 0em;
+		background: #111111 url("/img/header-bg.jpg")no-repeat center;
+		background-size: cover;
+	}
+
+	#header
+	{
+		position: relative;
+		padding: 5em 0em;
+	}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+#logo
+{
+	position: absolute;
+	top: 3.6em;
+	left: 0;
+	left: 0;
+}
+
+#logo h1
+{
+	font-size: 2.6em;
+}
+
+#logo a
+{
+	text-decoration: none;
+	color: black;
+}
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+#menu
+{
+	position: absolute;
+	top: 4.5em;
+	right: 0;
+}
+
+#menu ul
+{
+	display: inline-block;
+}
+
+#menu li
+{
+	display: block;
+	float: left;
+	text-align: center;
+}
+
+#menu li a, #menu li span
+{
+	padding: 1em 1.5em;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	color: rgba(255,255,255,0.80);
+}
+
+#menu li:hover a, #menu li.active a, #menu li.active span
+{
+}
+
+#menu .active a
+{
+	background: #2651a8;
+	border-radius: 6px;
+	color: rgba(255,255,255,1);
+}
+
+#menu .icon
+{
+}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+#banner
+{
+	padding-top: 10em;
+	text-align: center;
+}
+
+#banner .title h2
+{
+	font-size: 4em;
+}
+
+#banner .title .byline
+{
+	font-size: 2em;
+}
+
+#banner .button
+{
+	margin-top: 2em;
+	padding: 1.40em 3em;
+	border-radius: 6px;
+	font-weight: 700;
+	font-size: 1em;
+	
+}
+
+.banner
+{
+	margin-bottom: 5em;
+}
+
+/*********************************************************************************/
+/* Page                                                                          */
+/*********************************************************************************/
+
+#page
+{
+}
+
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+
+#content
+{
+}
+
+/*********************************************************************************/
+/* Sidebar                                                                       */
+/*********************************************************************************/
+
+#sidebar
+{
+}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+#footer
+{
+}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+#copyright
+{
+	overflow: hidden;
+	padding: 5em 0em;
+	border-top: 1px solid rgba(0,0,0,0.08);
+}
+
+#copyright p
+{
+	text-align: center;
+	font-size: 1em;
+	color: rgba(255,255,255,0.3);
+}
+
+#copyright a
+{
+	text-decoration: none;
+	color: rgba(255,255,255,0.6);
+}
+
+
+/*********************************************************************************/
+/* Welcome                                                                       */
+/*********************************************************************************/
+
+#welcome
+{
+	position: relative;
+	padding: 7em 0em 7em 0em;
+	background: #2651a8;
+	background-size: cover;
+	text-align: center;
+}
+
+#welcome .container
+{
+	width: 1000px;
+	padding: 0px 100px;
+	color: rgba(255,255,255,0.8);
+}
+
+#welcome a
+{
+	color: rgba(255,255,255,1);
+}
+
+#welcome .button
+{
+	background: #FFF;
+	color: #2651a8;
+}
+
+
+/*********************************************************************************/
+/* Extra                                                                         */
+/*********************************************************************************/
+
+#three-column
+{
+	text-align: center;
+	color: rgba(0,0,0,0.6);
+
+}
+
+#three-column .fa
+{
+	display: block;
+	padding: 1em 0em;
+	color: rgba(0,0,0,1);
+	font-size: 2em;
+}
+
+#three-column .title h2
+{
+	font-weight: bold;
+	color: rgba(0,0,0,0.8);
+}
+
+#three-column .title .byline
+{
+	text-align: center;
+	color: rgba(0,0,0,.5);
+}
+.ch-item {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	position: relative;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+	cursor: default;
+}
+
+.ch-info-wrap,
+.ch-info{
+	position: absolute;
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+}
+
+.ch-info-wrap {
+	top: 20px;
+	left: 20px;
+	background: #f9f9f9 url("/img/bg.jpg");
+	box-shadow:
+			0 0 0 20px rgba(255,255,255,0.2),
+			inset 0 0 3px rgba(115,114, 23, 0.8);
+
+}
+
+.ch-info > div {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background-position: center center;
+
+	-webkit-backface-visibility: hidden; /*Just for webkit to have a smooth font*/
+}
+
+.ch-info .ch-info-front {
+	-webkit-transition: all 0.6s ease-in-out;
+	-moz-transition: all 0.6s ease-in-out;
+	-o-transition: all 0.6s ease-in-out;
+	-ms-transition: all 0.6s ease-in-out;
+	transition: all 0.6s ease-in-out;
+}
+
+.ch-info .ch-info-back {
+	opacity: 0;
+
+	background: #223e87;
+	pointer-events: none;
+
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	transform: scale(1.5);
+
+	-webkit-transition: all 0.4s ease-in-out 0.2s;
+	-moz-transition: all 0.4s ease-in-out 0.2s;
+	-o-transition: all 0.4s ease-in-out 0.2s;
+	-ms-transition: all 0.4s ease-in-out 0.2s;
+	transition: all 0.4s ease-in-out 0.2s;
+}
+
+.ch-img-1 {
+	background-image: url("/img/13.png");
+}
+
+.ch-img-2 {
+	background-image: url("/img/14.jpg");
+}
+
+.ch-img-3 {
+	background-image: url("/img/15.png");
+}
+
+.ch-info h3 {
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 18px;
+	margin: 0 15px;
+	padding: 40px 0 0 0;
+	height: 80px;
+	font-family: 'Open Sans', Arial, sans-serif;
+	text-shadow:
+			0 0 1px #fff,
+			0 1px 2px rgba(0,0,0,0.3);
+}
+
+.ch-info p {
+	color: #fff;
+	padding: 10px 5px 0;
+	font-style: italic;
+	margin: 0 30px;
+	font-size: 12px;
+	border-top: 1px solid rgba(255,255,255,0.5);
+}
+
+.ch-info p a {
+	display: block;
+	color: #e7615e;
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 9px;
+	letter-spacing: 1px;
+	padding-top: 4px;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.ch-info p a:hover {
+	color: #fff;
+}
+
+.ch-item:hover .ch-info-front {
+	-webkit-transform: scale(0);
+	-moz-transform: scale(0);
+	-o-transform: scale(0);
+	-ms-transform: scale(0);
+	transform: scale(0);
+
+	opacity: 0;
+}
+
+.ch-item:hover .ch-info-back {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+
+	opacity: 1;
+	pointer-events: auto;
+}
