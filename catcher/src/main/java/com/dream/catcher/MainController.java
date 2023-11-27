@@ -9,4 +9,6 @@ public class MainController {
     public String index() {
         return "index";
     }
+    @GetMapping("/web")
+    public String web() { return "web2";}
 }
