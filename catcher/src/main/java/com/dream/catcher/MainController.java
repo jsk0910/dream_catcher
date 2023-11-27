@@ -14,4 +14,9 @@ public class MainController {
     public String laws() {
         return "laws";
     }
+
+    @GetMapping("/web")
+    public String web() { 
+        return "web2";
+    }
 }
